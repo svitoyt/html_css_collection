@@ -1,6 +1,6 @@
 # svitoyt.github.io
 
-Projects executed mainly in HTML:
+4 different projects completed mainly in HTML:
 -Flexbox
 -Grid
 -CSS
