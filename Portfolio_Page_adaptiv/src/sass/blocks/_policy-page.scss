@@ -1,0 +1,45 @@
+.policy-text {
+    &__block {
+        padding: 30px 60px 30px 60px;
+        color: darkslategrey;
+        text-align: justify;
+        border: 2px solid #000;
+        border-radius: 8px;
+        margin: 25px 75px 25px 25px;
+    }
+    &__title {
+        font-family: 'Bitter', serif;
+        font-weight: 700;
+        font-size: 36px;
+    }
+    &__subtitle {
+        font-family: 'Bitter', serif;
+        font-weight: 500;
+        font-size: 24px;
+        padding-left: 20px;
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    &__paragraph {
+        font-family: 'Bitter', serif;
+        font-weight: 500;
+        font-size: 16px;
+        padding-left: 50px;
+        line-height: 26px;
+    }
+
+    &__paragraph-numbers {
+        font-family: 'Bitter', serif;
+        font-weight: 500;
+        font-size: 16px;
+        padding-left: 80px;
+        line-height: 26px;
+
+        span {
+            font-weight: bold;
+        }
+    }
+}
