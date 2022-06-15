@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,AAAC,CACA,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACtB,eAAe,CAAE,aAAa,CAC9B",
+    "sources": [
+        "../../blocks/navigation.scss"
+    ],
+    "names": [],
+    "file": "navigation.min.css"
+}

@@ -1,0 +1,24 @@
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+    .cards__block {
+        margin-left: 0;
+        margin-top: 16px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .cards__card {
+        width: 304px;
+    }
+    .cards__block .cards__wrapper {
+        grid-template-columns: repeat(auto-fill, 302px);
+    }
+}

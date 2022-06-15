@@ -1,0 +1,63 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
+}
+  
+html {
+  font-size: 16px;
+  font-weight: 400;
+  color:#000000;
+  font-family: "Roboto", sans-serif;
+  background: #E5E5E5
+}
+  
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1376px;
+  margin: 0 auto;
+  position: relative;
+}
+
+p, ul, ol {
+  margin: 0 0 0 0;
+}
+
+* + p, * + ul, * + ol {
+  margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0 0;
+}
+
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 {
+  margin-top: 0;
+}
+
+a, .link {
+  color: blue;
+  text-decoration: none;
+}
+
+.cards__field{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  background: #E5E5E5;
+  padding-bottom: 16px;
+}
+  
+
+  @import './blocks/navigation';
+  @import './blocks/adding_form';
+  @import './blocks/cards_section';
+  @import './blocks/card';
+
+  @import './blocks/media/media-navigation';
+  @import './blocks/media/media-adding_form';
+  @import './blocks/media/media-cards_section';
+
