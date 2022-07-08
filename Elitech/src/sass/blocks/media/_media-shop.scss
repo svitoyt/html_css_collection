@@ -1,0 +1,529 @@
+
+@media (max-width: 1205px) {
+    .shop{
+        width: 100%;
+        height: 449px;
+        top: 4042px;
+        background: #F3F3F3;
+        &__title {
+            padding-top: 105px;
+        }
+        &__wrapper {
+            position: relative;
+        }
+        &__red_field {
+            height: 281px;
+            width: 100%;
+            background-color: #E31F23;
+            position: absolute;
+            z-index: 5;
+            top: 0px;
+            left: 0;
+    
+            &__wrapper {
+                display: flex;
+                flex-direction: row;
+                &__item {
+                    padding-left: 0;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 44px;
+
+                    &__circle {
+                        position: absolute;
+                        left: 40px;
+                        top: -18.5px;
+                        left: 60px;
+                        width: 37px;
+                        height: 37px;
+                        background-color: #333333;
+                        border-radius: 100%;
+                        text-align: center;
+                        font-family: 'HelveticaNeueCyr-Bold', sans-serif;
+                        font-size: 18px;
+                        line-height: 18px;
+                        color: #fff;
+                        padding-top: 10px;
+                    }
+                    &__figure {
+                        width: 99px;
+                        height: 113px;
+                        object-fit: cover;
+                        &__img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                    &__text {
+                        width: 243px;
+                        font-family: 'HelveticaNeueCyr-Bold', sans-serif;
+                        font-size: 16px;
+                        line-height: 23px;
+                        color: #fff;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .circle_first {
+            left: 25px;
+        }
+    }
+    
+    .shop__red_field__wrapper__item:first-child {
+        padding-left: 0;
+        margin-left: 0px;
+    }
+    
+    .shops__block__wrapper {
+        position: relative;
+        .shops__block {
+            background-color: #F3F3F3;
+            position: absolute;
+            top: 274px;
+            height: 305px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .shops__block__field {
+                width: 592px;
+                height: 113px;
+                background: #FFFFFF;
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.07);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 52px;
+                display: flex;
+                flex-direction: column;
+                &:hover {
+                    box-shadow: 0px 10px 15px rgba(227, 31, 35, 0.2);
+                    margin-top: 42px;
+                    cursor: pointer;
+                    user-select: none;  
+                }
+                .shops__block__yandex__img {
+                    width: 289px;
+                    height: 41px;
+                }
+                .shops__block__wildberries__img {
+                    width: 195px;
+                    height: 51px;
+                }
+            }
+        }
+        .shops__block__text {
+            position: absolute;
+            top: 480px;
+            left: 25%;
+            font-family: 'Inter', sans-serif;
+            font-size: 24px;
+            line-height: 35px;
+            color: #555555;
+            display: flex;
+            align-items: center;
+            svg {
+                padding-left: 16px;
+                height: 14px;
+                width: 60px;
+            }
+        }
+    
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .shop{
+        width: 100%;
+        height: 449px;
+        top: 4042px;
+        background: #F3F3F3;
+        &__title {
+            padding-top: 105px;
+        }
+        &__wrapper {
+            position: relative;
+        }
+        &__red_field {
+            height: auto;
+            width: 100%;
+            background-color: #E31F23;
+            position: absolute;
+            z-index: 5;
+            top: 0px;
+            left: 0;
+            padding-bottom: 30px;
+    
+            &__wrapper {
+                display: flex;
+                flex-direction: column;
+                &__item {
+                    padding-left: 0;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 44px;
+                    svg {
+                        display: none;
+                    }
+                    &__circle {
+                        position: absolute;
+                        left: 40px;
+                        top: -18.5px;
+                        left: 60px;
+                        width: 37px;
+                        height: 37px;
+                        background-color: #333333;
+                        border-radius: 100%;
+                        text-align: center;
+                        font-family: 'HelveticaNeueCyr-Bold', sans-serif;
+                        font-size: 18px;
+                        line-height: 18px;
+                        color: #fff;
+                        padding-top: 10px;
+                    }
+                    &__figure {
+                        width: 99px;
+                        height: 113px;
+                        object-fit: cover;
+                        &__img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                    &__text {
+                        width: 243px;
+                        font-family: 'HelveticaNeueCyr-Bold', sans-serif;
+                        font-size: 16px;
+                        line-height: 23px;
+                        color: #fff;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .circle_first {
+            left: 25px;
+        }
+    }
+    
+    .shop__red_field__wrapper__item:first-child {
+        padding-left: 0;
+        margin-left: 0px;
+    }
+    
+    .shops__block__wrapper {
+        position: relative;
+        .shops__block {
+            background-color: #F3F3F3;
+            position: absolute;
+            top: 812px;
+            height: 305px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .shops__block__field {
+                width: 100%;
+                height: 113px;
+                background: #FFFFFF;
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.07);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 52px;
+                display: flex;
+                flex-direction: column;
+
+                .shops__block__yandex__img {
+                    width: 289px;
+                    height: 41px;
+                }
+                .shops__block__wildberries__img {
+                    width: 195px;
+                    height: 51px;
+                }
+            }
+        }
+        .shops__block__text {
+            position: absolute;
+            top: 1000px;
+            left: 18%;
+            font-family: 'Inter', sans-serif;
+            font-size: 24px;
+            line-height: 35px;
+            color: #555555;
+            display: flex;
+            align-items: center;
+            padding-bottom: 30px;
+        }
+    
+    }
+}
+
+@media (max-width: 768px) {
+    .shop{
+        width: 100%;
+        height: 449px;
+        top: 4042px;
+        background: #F3F3F3;
+        &__title {
+            padding-top: 105px;
+        }
+        &__wrapper {
+            position: relative;
+        }
+        &__red_field {
+            height: auto;
+            width: 100%;
+            background-color: #E31F23;
+            position: absolute;
+            z-index: 5;
+            top: 0px;
+            left: 0;
+            padding-bottom: 30px;
+    
+            &__wrapper {
+                display: flex;
+                flex-direction: column;
+                &__item {
+                    padding-left: 0;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 44px;
+                    &__circle {
+                        position: absolute;
+                        left: 40px;
+                        top: -18.5px;
+                        left: 60px;
+                        width: 37px;
+                        height: 37px;
+                        background-color: #333333;
+                        border-radius: 100%;
+                        text-align: center;
+                        font-family: 'HelveticaNeueCyr-Bold', sans-serif;
+                        font-size: 18px;
+                        line-height: 18px;
+                        color: #fff;
+                        padding-top: 10px;
+                    }
+                    &__figure {
+                        width: 99px;
+                        height: 113px;
+                        object-fit: cover;
+                        &__img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                    &__text {
+                        width: 243px;
+                        font-family: 'HelveticaNeueCyr-Bold', sans-serif;
+                        font-size: 16px;
+                        line-height: 23px;
+                        color: #fff;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .circle_first {
+            left: 25px;
+        }
+    }
+    
+    .shop__red_field__wrapper__item:first-child {
+        padding-left: 0;
+        margin-left: 0px;
+    }
+    
+    .shops__block__wrapper {
+        position: relative;
+        .shops__block {
+            background-color: #F3F3F3;
+            position: absolute;
+            top: 812px;
+            height: 305px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .shops__block__field {
+                width: 100%;
+                height: 113px;
+                background: #FFFFFF;
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.07);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 52px;
+                display: flex;
+                flex-direction: column;
+
+                .shops__block__yandex__img {
+                    width: 289px;
+                    height: 41px;
+                }
+                .shops__block__wildberries__img {
+                    width: 195px;
+                    height: 51px;
+                }
+            }
+        }
+        .shops__block__text {
+            position: absolute;
+            top: 1000px;
+            left: 12%;
+            font-family: 'Inter', sans-serif;
+            font-size: 24px;
+            line-height: 35px;
+            color: #555555;
+            display: flex;
+            align-items: center;
+            svg {
+                padding-left: 0;
+            }
+        }
+    
+    }
+}
+
+@media (max-width: 576px) {
+    .shop{
+        width: 100%;
+        height: 449px;
+        top: 4042px;
+        background: #F3F3F3;
+        &__title {
+            padding-top: 105px;
+        }
+        &__wrapper {
+            position: relative;
+        }
+        &__red_field {
+            height: auto;
+            width: 100%;
+            background-color: #E31F23;
+            position: absolute;
+            z-index: 5;
+            top: 0px;
+            left: 0;
+            padding-bottom: 30px;
+    
+            &__wrapper {
+                display: flex;
+                flex-direction: column;
+                &__item {
+                    padding-left: 0;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 44px;
+                    &__circle {
+                        position: absolute;
+                        left: 40px;
+                        top: -18.5px;
+                        left: 60px;
+                        width: 37px;
+                        height: 37px;
+                        background-color: #333333;
+                        border-radius: 100%;
+                        text-align: center;
+                        font-family: 'HelveticaNeueCyr-Bold', sans-serif;
+                        font-size: 18px;
+                        line-height: 18px;
+                        color: #fff;
+                        padding-top: 10px;
+                    }
+                    &__figure {
+                        width: 99px;
+                        height: 113px;
+                        object-fit: cover;
+                        &__img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                    &__text {
+                        width: 243px;
+                        font-family: 'HelveticaNeueCyr-Bold', sans-serif;
+                        font-size: 16px;
+                        line-height: 23px;
+                        color: #fff;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .circle_first {
+            left: 25px;
+        }
+    }
+    
+    .shop__red_field__wrapper__item:first-child {
+        padding-left: 0;
+        margin-left: 0px;
+    }
+    
+    .shops__block__wrapper {
+        position: relative;
+        .shops__block {
+            background-color: #F3F3F3;
+            position: absolute;
+            top: 812px;
+            height: 305px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .shops__block__field {
+                width: 100%;
+                height: 113px;
+                background: #FFFFFF;
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.07);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 52px;
+                display: flex;
+                flex-direction: column;
+
+                .shops__block__yandex__img {
+                    width: 289px;
+                    height: 41px;
+                }
+                .shops__block__wildberries__img {
+                    width: 195px;
+                    height: 51px;
+                }
+            }
+        }
+        .shops__block__text {
+            position: absolute;
+            top: 1150px;
+            left: 12%;
+            font-family: 'Inter', sans-serif;
+            font-size: 24px;
+            line-height: 35px;
+            color: #555555;
+            display: flex;
+            align-items: center;
+            svg {
+                padding-left: 0;
+            }
+        }
+    
+    }
+}

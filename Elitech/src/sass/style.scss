@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+  
+html {
+  font-size: 16px;
+  font-weight: 550;
+  color:#000000;
+  background: #E5E5E5
+}
+  
+body {
+  margin: 0;
+  position: relative;
+}
+
+.container {
+  max-width: 1204px;
+  margin: 0 auto;
+  position: relative;
+}
+
+p, ul, ol {
+  margin: 0 0 0 0;
+}
+
+* + p, * + ul, * + ol {
+  margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0 0;
+}
+
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 {
+  margin-top: 0;
+}
+
+a, .link {
+  color: blue;
+  text-decoration: none;
+}  
+
+@import './blocks/fonts';
+@import './blocks/main_page';
+@import './blocks/navigation';
+@import './blocks/advantages';
+@import './blocks/production';
+@import './blocks/shop';
+@import './blocks/about_us';
+@import './blocks/footer';
+@import './blocks/overlay';
+
+@import './blocks/media/media-navigation';
+@import './blocks/media/media-main_page';
+@import './blocks/media/media-advantages';
+@import './blocks/media/media-production';
+@import './blocks/media/media-shop';
+@import './blocks/media/media-about_us';
+@import './blocks/media/media-footer';
+@import './blocks/media/media-overlay';

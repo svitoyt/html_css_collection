@@ -1,0 +1,60 @@
+.footer {
+    background-color: #121212;
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    height: 149px;
+
+    &__logo-block__img {
+        width: 125px;
+        height: 90px;
+        margin-top: 29px;
+    }
+
+    &__btns-block {
+        margin-left: 215px;
+        display: flex;
+        flex-direction: row;
+
+        &__list {
+            width: 535px;
+        }
+
+
+        &__item {
+            margin-left: 38px;
+            &:first-child{
+                margin-left: 0;
+            }
+        }
+
+        &__btn {
+            padding-left: 69px;
+        }
+    }
+
+
+    &__row {
+        position: relative;
+        width: 100%;
+
+
+        .footer__info {
+            position: absolute;
+            color: white;
+            top: 101px;
+            left: 438px;
+            color: #777;
+            font-family: 'HelveticaNeueCyr-Roman', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+}

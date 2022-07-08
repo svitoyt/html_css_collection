@@ -1,0 +1,46 @@
+.about_us {
+    background-color: #FFFFFF;
+    padding-bottom: 100px;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 100px;
+
+        .about_us__block__img {
+            width: 592px;
+            height: 541px;
+            object-fit: contain;
+        }
+
+        .about_us__text {
+            width: 510px;
+            margin-left: 102px;
+
+            &__title {
+                padding: 0;
+            }
+
+            &__subscr  {
+                margin-top: 58px;
+                font-family: 'HelveticaNeueCyr-Roman', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                color: #777777;
+
+                & span {
+                    font-family: 'HelveticaNeueCyr-Medium', sans-serif;
+                    font-style: normal;
+                    font-weight: 550;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #333333;
+                }
+
+            }
+        }
+    }
+}

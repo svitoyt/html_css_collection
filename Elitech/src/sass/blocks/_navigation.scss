@@ -1,0 +1,96 @@
+.navigation {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+    &__bg {
+        position: absolute;
+        height: 100px;
+        width: 1065px;
+        background: rgb(20, 20, 20);
+        opacity: 0.6;
+        left: 139px;
+        z-index: 2;
+    }
+    &__row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+
+        .navigation__logo-block{
+            width: 139px;
+            height: 100px;
+            user-select: none;
+            &__img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .navigation__btns-block {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 249px;
+            z-index: 4;
+
+            &__links {
+                .navigation__btns-block__list {
+                    display: flex;
+                    flex-direction: row;
+                    list-style-type: none;
+                    justify-content: flex-start;
+                    padding-left: 0;
+
+                    .navigation__btns-block__item {
+                        margin-left: 44px;
+                        &:first-child{
+                            margin-left: 0;
+                        }
+                        &__link {
+                            color: #FFFFFF;
+                            font-family: 'HelveticaNeueCyr-Roman', sans-serif;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 16px;
+                            user-select: none;
+
+                            &:hover{
+                                color: #E31F23;
+                                text-decoration: underline #FFFFFF solid;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &__btn {
+                margin-left: 92px;
+                .button_white{
+                    width: 168px;
+                    height: 45px;
+                    text-transform: uppercase;
+                    border: none;
+                    background: #FFFFFF;
+                    color: #E31F23;
+                    text-align: center;
+                    font-family: 'HelveticaNeueCyr-Medium', sans-serif;
+                    font-size: 14px;
+                    font-weight: 550;
+                    user-select: none;
+
+                    &:hover {
+                        background: #E31F23;
+                        color: #FFFFFF;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+

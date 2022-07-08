@@ -1,0 +1,42 @@
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+    .cards__field{
+        margin-top: 10px;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding-bottom: 10px;
+      }
+    .card_adding_form {
+        width: 304px;
+        height: 390px;
+        padding: 0 5px 0 10px;
+        
+        .form_design{
+            padding: 5px 8px 6px 8px;
+            margin-top: 2px;
+        }
+
+        .add_btn{
+            margin-top: 15px;
+        }
+
+        &_info {
+            padding-top: 12px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .cards__field{
+        margin-top: 5px;
+    }
+}
